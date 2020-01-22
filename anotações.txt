@@ -1,0 +1,47 @@
+yarn add express (Auxilia com as rotas)
+
+yarn add nodemon -D (Hotswap) -D significa extensão de dev
+
+yarn nodemon index.js (observa as modificações)
+
+
+yarn add mogoose (package de acesso do node a base mongo)
+
+yarn add axios (consumo de API)
+
+
+
+//tipos de parametros:
+//Query Params: request.query (Filtros,ordenação,Paginação)
+//Route Params: request.params (indentificar um recurso na alteração/remoção)
+//Body: request.body (dados para criação ou alteração de um registro)
+
+
+
+no package.json
+
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  
+  ----------------------front web---------------------------
+  
+   yarn create react-app web -> criar projeto
+   
+   
+   //Componente -> é UM BLOCO ISOLADO DE HTML,CSS, JS, O QUAL NAO INTERFERE
+//NO RESTANTE DA APLICAÇÃO
+//Propriedade -> INFORMAÇÕES QUE UM COMPONENTE PAI PASSA PARA O FILHO
+//ESTADO -> informações mantidas pelo componente (lembrar: imutabilidade)
+
+
+
+
+
+
+------------------------------MOBILE----------------------------------
+
+yarn global add expo-cli -> add expo (framework) instalacao
+
+
+iniciar projeto -> expo init mobile
